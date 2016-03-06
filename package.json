@@ -1,0 +1,33 @@
+{
+  "name": "torrentsubs",
+  "version": "0.0.1",
+  "description": "View and download subtitles for your torrent streaming",
+  "main": "main.js",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "co": "^4.6.0",
+    "koa": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "opensubtitles-api": "^2.4.0",
+    "redis": "^2.4.2",
+    "torrent-stream": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquefynn/torrentsubs.git"
+  },
+  "keywords": [
+    "torrent",
+    "subtitle"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/enriquefynn/torrentsubs/issues"
+  },
+  "homepage": "https://github.com/enriquefynn/torrentsubs#readme"
+}
